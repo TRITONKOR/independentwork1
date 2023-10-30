@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+</head>
+<body>
+<main>
+    <h1 class="title">Da</h1>
+    <div class = "center-side">   
+        <textarea id = "displayArray"></textarea>
+    </div>
+    <div>
+        <h2>Ввести шукане значення</h2>
+        <input id = "pushValue" value="2"/>
+    </div>
+
+    <div class="right-side">
+        <h2>Ввести розмір масиву</h2>
+        <input id = "pushCount" value="100" />
+        <button onclick="GenerateArray()" > Generate array </button>
+    </div>
+
+
+    <button onclick="LineSearch()" > LineSearch </button>
+    <button onclick="BinarySearch()" > BinarySearch </button>
+
+    <div>
+        <input id = "showAnswer"></textarea>
+    </div>
+
+
+</main>
+    <script src="./src/scripts/search.js"></script>
+</body>
+</html>
